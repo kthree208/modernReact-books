@@ -1,0 +1,10 @@
+GET  http://localhost:3005/books HTTP/1.1
+Content-Type : application/json
+
+###
+POST http://localhost:3005/books HTTP/1.1
+Content-Type : application/json
+
+{
+    "title" : "Harry Potter"
+}
